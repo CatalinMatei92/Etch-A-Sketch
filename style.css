@@ -1,0 +1,135 @@
+html {
+    background-color: aliceblue;
+    background-size: 100% 100%;
+    
+}
+
+body {
+    font-family:"Roboto", sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-size: 50px;
+
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;  
+      
+}
+
+.settings{
+    display: flex;
+    flex-direction:column ;  
+    width: 170px;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    box-shadow: rgb(8, 8, 8) 0px 5px 12px;
+  }
+
+button {
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 13px;
+    font-size: 16px;
+  }
+
+    
+
+  input[type='color'] {
+    
+    width: 80px;
+    height: 80px;
+    border: none;
+    align-self: center;
+    ;
+  }
+  
+  input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgba(8, 8, 8) 0px 3px 8px;
+  }
+
+  input[type='color'],
+  button {
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  
+  input[type='color']:hover,
+  button:hover {
+    transform: scale(1.05);
+  }
+
+  /*Options under Pixel Container */
+  .option-size,
+  .grid-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+          
+  }
+.grid-size{
+    width: 200px;
+
+}
+  .grid-size p,
+  #sizeValue
+   {
+    font-size: 20px;
+    align-self: center;
+    margin: 15px 0;
+  }
+  
+  .footer{ 
+    margin-top: auto;
+    padding: 20px 0;
+    font-size: 16px;
+    
+  }
+  
+    
+    
+    
+
+  
+
+
+
+
+  
+ /* input[type='color']:active {
+    transition: transform 0.05s ease-in-out;
+    transform: scale(1);
+  }
+ 
+  
+  button.active {
+    background-color: ;
+    color: var(--primary-light);
+  } */
